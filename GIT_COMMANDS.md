@@ -1,6 +1,6 @@
 # Useful Git Commands
 
-## Basics
+## Basics:
 
 - **Initialize a Git repository**
 ```bash
@@ -23,7 +23,8 @@
     git status
 
 # This command shows the current status of the Git repository.
-# It displays the changes that have been made to the files since the last commit, including new files, modified files, and deleted files.
+# It displays the changes that have been made to the files since the last commit,
+# including new files, modified files, and deleted files.
 # It also shows the current branch and any uncommitted changes.
 ```
 - **Check Git Configuration**
@@ -33,4 +34,22 @@
 # This command displays a list of all the configuration settings for your Git environment.
 # It includes user information, repository settings, and other configurations that affect how Git operates.
 # This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
+```
+## Root Configurations:
+- To be done on the system
+
+- **Set Git User Name**
+```bash
+    git config --global user.name "Your Name"
+
+# This command sets the user name for your Git commits.
+# Replace "Your Name" with your actual name.
+# This setting is stored in your global Git configuration and will be used for all your Git commits.
+```
+- **Set Git User Email**
+```bash
+    git config --global user.email "your.email@example.com"
+
+# This command sets the user email for your Git commits.
+# Replace "your.email@example.com" with your actual email address.
 ```

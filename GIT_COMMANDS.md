@@ -56,6 +56,7 @@
 # This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
 ```
 ## Staging and Committing Changes:
+***Process of staging changes and committing them to the Git repository***
 
 - **Add files to staging area**
 ```bash
@@ -78,6 +79,8 @@
 # This is the final step in the Git workflow, and it saves the changes to the repository.
 ```
 ## Logs and History:
+***See the log of commits***
+
 - **View Commit History**
 ```bash
     git log

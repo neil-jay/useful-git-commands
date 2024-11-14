@@ -5,7 +5,8 @@
 - **Initialize a Git repository**
 ```bash
     git init
-
-- **Clone a repository**
+```
+- **Clone a Git repository**
 ```bash
     git clone <repository-url>
+```

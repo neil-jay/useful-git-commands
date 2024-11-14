@@ -10,6 +10,7 @@
 # This command sets the user name for your Git commits.
 # Replace "Your Name" with your actual name.
 # This setting is stored in your global Git configuration and will be used for all your Git commits.
+# This has to be at the root of your system.
 ```
 - **Set Git User Email**
 ```bash
@@ -17,6 +18,14 @@
 
 # This command sets the user email for your Git commits.
 # Replace "your.email@example.com" with your actual email address.
+```
+- **Check Git Configuration**
+```bash
+    git config --list
+
+# This command displays a list of all the configuration settings for your Git environment.
+# It includes user information, repository settings, and other configurations that affect how Git operates.
+# This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
 ```
 ## Basics:
 ***For any project***
@@ -47,14 +56,7 @@
 # including new files, modified files, and deleted files.
 # It also shows the current branch and any uncommitted changes.
 ```
-- **Check Git Configuration**
-```bash
-    git config --list
 
-# This command displays a list of all the configuration settings for your Git environment.
-# It includes user information, repository settings, and other configurations that affect how Git operates.
-# This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
-```
 ## Staging and Committing Changes:
 ***Process of staging changes and committing them to the Git repository***
 

@@ -77,3 +77,45 @@
 # It creates a new commit with the specified commit message and includes all the staged changes.
 # This is the final step in the Git workflow, and it saves the changes to the repository.
 ```
+## Logs and History:
+- **View Commit History**
+```bash
+    git log
+
+# This command displays the commit history for the current branch.
+# It shows the commit hash, commit message, author, and date for each commit.
+# This is useful for reviewing the changes made to the repository and understanding the commit history.
+
+    git log -1
+# This command displays the last commit in the commit history for the current branch in a detailed format.
+```
+- **View commit history with one-line summary**
+```bash
+    git log --oneline
+
+# This command displays the commit history for the current branch in a one-line summary format.
+# It shows the commit hash and commit message for each commit.
+# This is useful for quickly reviewing the commit history and identifying the changes made in each commit.
+
+    git log --oneline -5
+# This command displays the last 5 commits in the commit history for the current branch in a one-line summary format.
+```
+- **View changes in the working directory**
+```bash
+    git diff
+# This command displays the changes made in the working directory since the last commit.
+# It shows the differences between the files in the working directory and the files in the staging area.
+# This is useful for reviewing the changes before committing them.
+
+    git diff --cached
+# This command displays the changes made in the staging area since the last commit.
+# It shows the differences between the files in the staging area and the files in the last commit.
+# This is useful for reviewing the changes that will be committed.
+```
+- **View changes between two commits**
+```bash
+    git diff <commit1> <commit2>
+# This command displays the differences between two commits.
+# It shows the changes made in the files between the two commits.
+# This is useful for comparing the changes made in different versions of the codebase.
+```

@@ -1,9 +1,10 @@
 # Useful Git Commands
 
 ## Basics
+
 - **Initialize a Git repository**
-  ```bash
-     git init
+```bash
+    git init
 
 - **Clone a repository**
 ```bash

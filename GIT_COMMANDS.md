@@ -55,3 +55,25 @@
 # It includes user information, repository settings, and other configurations that affect how Git operates.
 # This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
 ```
+## Staging and Committing Changes:
+
+- **Add files to staging area**
+```bash
+    git add <file>
+
+# This command stages the changes to the specified file for the next commit.
+# It adds the file to the staging area, which is a temporary area where you can prepare changes for commit.
+
+    git add .
+
+# This command stages all the changes in the current directory for the next commit.
+# It adds all the modified, deleted, and new files to the staging area.
+```
+- **Commit Changes**
+```bash
+    git commit -m "Commit message"
+
+# This command commits the staged changes to the repository.
+# It creates a new commit with the specified commit message and includes all the staged changes.
+# This is the final step in the Git workflow, and it saves the changes to the repository.
+```

@@ -1,6 +1,25 @@
 # Useful Git Commands
 
+## Root Configurations:
+***To be done on the system***
+
+- **Set Git User Name**
+```bash
+    git config --global user.name "Your Name"
+
+# This command sets the user name for your Git commits.
+# Replace "Your Name" with your actual name.
+# This setting is stored in your global Git configuration and will be used for all your Git commits.
+```
+- **Set Git User Email**
+```bash
+    git config --global user.email "your.email@example.com"
+
+# This command sets the user email for your Git commits.
+# Replace "your.email@example.com" with your actual email address.
+```
 ## Basics:
+***For any project***
 
 - **Initialize a Git repository**
 ```bash
@@ -16,7 +35,8 @@
 # This command creates a local copy of a remote Git repository.
 # Replace `<repository-url>` with the URL of the repository you want to clone.
 # Example: git clone https://github.com/neil-jay/useful-git-commands.git
-# After cloning, you will have a complete copy of the repository, including its history, branches, and files, allowing you to work on it locally.
+# After cloning, you will have a complete copy of the repository, including its history, branches, and files
+# This will allow you to work on the project locally.
 ```
 - **Check Git Status**
 ```bash
@@ -34,22 +54,4 @@
 # This command displays a list of all the configuration settings for your Git environment.
 # It includes user information, repository settings, and other configurations that affect how Git operates.
 # This is useful for verifying your setup and ensuring that your Git environment is configured correctly.
-```
-## Root Configurations:
-- To be done on the system
-
-- **Set Git User Name**
-```bash
-    git config --global user.name "Your Name"
-
-# This command sets the user name for your Git commits.
-# Replace "Your Name" with your actual name.
-# This setting is stored in your global Git configuration and will be used for all your Git commits.
-```
-- **Set Git User Email**
-```bash
-    git config --global user.email "your.email@example.com"
-
-# This command sets the user email for your Git commits.
-# Replace "your.email@example.com" with your actual email address.
 ```

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # =====================================================================
-# Commit Types for Git Projects (Semantic Commit Messages)
+# Commit Types for Git Projects (Conventional Commit Messages)
 # =====================================================================
 # Use this script as a guideline for commit types when uploading changes.
 # Each section includes:
@@ -82,6 +82,20 @@ git commit -m "hotfix(security): fix XSS vulnerability in login form"
 git commit -m "revert: revert 'fix(ui): resolve alignment issue in navbar'
 This reverts commit abc123."
 
+# --- Use Scopes for Related Features (Multiple lines of commits)
+git commit -m "feat(auth): add support for OAuth2 and JWT authentication"
+git commit -m "feat(api): add pagination and filtering to endpoints"
+
+# --- Splitting into Multiple Commits
+git commit -m "feat: add functionality to do X"
+git commit -m "feat: improve Y by doing Z"
+git commit -m "feat: introduce helper for W"
+
+# --- Cleanup Commit (Optional Custom Type) ---
+# Deletes unnecessary files or refactors unused code
+# Does NOT impact version
+git commit -m "cleanup: remove deprecated utility functions"
+
 # --- Localization Commit (Optional Custom Type) ---
 # Adds or updates translations or localization files
 # Does NOT impact version
@@ -91,8 +105,3 @@ git commit -m "i18n(fr): update French translations for error messages"
 # Changes related to configuration settings or environment variables
 # Does NOT impact version
 git commit -m "config(env): update database URL for production environment"
-
-# --- Cleanup Commit (Optional Custom Type) ---
-# Deletes unnecessary files or refactors unused code
-# Does NOT impact version
-git commit -m "cleanup: remove deprecated utility functions"

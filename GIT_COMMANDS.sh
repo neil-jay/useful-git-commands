@@ -1,3 +1,15 @@
+#!/bin/bash
+
+# =====================================================================
+# Commit Types for Git Projects (Conventional Commit Messages)
+# =====================================================================
+# Use this script as a guideline for commit types when uploading changes.
+# Each section includes:
+# - Type: The commit type (e.g., feat, fix)
+# - Example Commit: A sample message demonstrating proper formatting
+# - Notes: When and why to use the commit type
+# =====================================================================
+
 # Useful Git Commands
 
 ## Root Configurations:

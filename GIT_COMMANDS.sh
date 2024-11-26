@@ -15,6 +15,11 @@
 ## Root Configurations:
 ***To be done on the system***
 
+```
+Download Git
+Setup reference: https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup
+```
+
 - **Set Git User Name**
 ```bash
     git config --global user.name "Your Name"
